@@ -1,0 +1,151 @@
+@media all and (max-width: 1200px) {
+  .footer_list {
+    width: 40%;
+  }
+}
+@media all and (max-width: 1150px) {
+  .header_title_left {
+    font-size: 60px;
+  }
+
+  .portfolio_item {
+    width: 30%;
+  }
+
+  .portfolio_item > img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 1000px) {
+  .services_title_main {
+    width: 80%;
+  }
+  .navbar_list {
+    width: 40%;
+  }
+  .info_block_title_main {
+    width: 80%;
+  }
+  .header_btn {
+    width: 50%;
+  }
+}
+@media all and (max-width: 950px) {
+  .header_block_right {
+    width: 60%;
+  }
+
+  .header_img {
+    width: 100%;
+    height: 90%;
+  }
+
+  #vector_1 {
+    left: 10px;
+  }
+  #vector_3 {
+    left: -10px;
+  }
+  .header_title_left,
+  .info_block_title {
+    font-size: 40px;
+  }
+  .services_title_left {
+    font-size: 40px;
+  }
+  header {
+    margin-top: 0;
+  }
+  .services_title_main,
+  .info_block {
+    margin-top: 60px;
+  }
+}
+@media all and (max-width: 850px) {
+  .services_item {
+    width: 30%;
+    margin: 0 1, 5%;
+  }
+  .navbar_list {
+    width: 50%;
+  }
+  .header_btn {
+    width: 60%;
+  }
+  .portfolio_title {
+    font-size: 50px;
+  }
+  .portfolio_list {
+    padding: 0;
+  }
+  .portfolio_item > img {
+    width: 90%;
+  }
+  .info_block_btn {
+    width: 25%;
+  }
+  .footer_list {
+    width: 50%;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .footer_info {
+    width: 30%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer_item {
+    margin-right: 10px;
+  }
+}
+@media all and (max-width: 750px) {
+  .navbar_logo {
+    width: 20%;
+  }
+  .header_btn {
+    width: 40%;
+  }
+  .header_img {
+    height: 600px;
+  }
+  .portfolio_item:nth-child(2),
+  .portfolio_item:nth-child(3) {
+    display: none;
+  }
+  .portfolio_item {
+    width: 50%;
+  }
+  .portfolio_list {
+    justify-content: center;
+  }
+  .portfolio_icon {
+    display: none;
+  }
+  .portfolio_icon_second {
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_list {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .footer_item {
+    margin-bottom: 5px;
+  }
+  .footer_info {
+    margin-top: 0;
+  }
+  .navbar_list,
+  .navbar_input {
+    display: none;
+  }
+  .navbar_btn_burger {
+    display: flex;
+  }
+}
